@@ -22,7 +22,7 @@ int main()
 
 		double volume = mass / density;
 		cout.precision(3);
-			cout << "The volume of the object is " << volume << endl;
+			cout << "The volume of the object is " << volume << " cubic centimeters" << endl;
 
 	_getch();
 	return 0;
