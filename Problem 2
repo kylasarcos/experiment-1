@@ -1,0 +1,29 @@
+#include <iostream>
+#include <conio.h>
+#include <iomanip>
+
+
+using namespace std;
+int main()
+{
+
+	cout << "Volume Calculator" << endl;
+
+	cout << " " << endl;
+
+		int massIn;
+			cout << "Please enter the mass of the object in grams: " << endl;
+			cin >> massIn;
+		double mass = massIn /4.00;
+
+		int density;
+			cout << "Please enter the density of the object in grams per cubic centimeters: " << endl;
+			cin >> density;
+
+		double volume = mass / density;
+		cout.precision(3);
+			cout << "The volume of the object is " << volume << endl;
+
+	_getch();
+	return 0;
+}
